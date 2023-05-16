@@ -24,112 +24,115 @@ Execute the program using runserver command.
 
 ## CODE
 ```
-<html>
-     <head>
-              <title> ex3 </title>
-     </head>
-     <body bgcolor="purple" TEXT="white">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Slot Timetable</title>
+</head>
+<body>
 <center>
-     <img src="/static/images/sec.png"  height="100" width="900" align="center" /></center>
-          
-          <table border= "5" cellspacing="1px" cellpadding="12px" bgcolor=green" align="center" >
-          <CAPTION align=“top”> SLOT TIME TABLE - PANIMALAR P(22009107) </CAPTION>
-          <br>
-          <br>
-               <tr> 
-               <th bgcolor="purple">DAY/TIME </th>
-               <th bgcolor="dark pink">MONDAY </th>
-               <th bgcolor="dark pink">TUESDAY </th>
-               <th bgcolor="dark pink">WEDNESDAY </th>
-               <th bgcolor="dark pink">THURSDAY </th>
-               <th bgcolor="dark pink">FRIDAY </th>
-               </tr>
-               <tr>
-                <th bgcolor="dark pink"> 8-10 </th>
-                <td> -- </td>
-                <td> PHYSICS </td>
-                <td> -- </td>
-                <td> FWAD </td>
-                <td> FWAD </td>
-               </tr>
-               <tr>
-                <th bgcolor="dark pink"> 10-12 </th>
-                <td> -- </td>
-                <td> -- </td>
-                <td> -- </td>
-                <td> -- </td>
-                <td> -- </td>
-               </tr>
-               <tr>
-                <th bgcolor="dark pink"> 12-1 </th>
-                 <td colspan="5" align="center">LUNCH TIME</td>
-               </tr>
-               <tr>
-                <th bgcolor="dark pink"> 1-3 </th>
-                <td> STATISTICS </td>
-                <td> -- </td>
-                <td> FWAD </td>
-                <td> PHYSICS </td>
-                <td> C NETWORK </td>
-               </tr>
-               
-              
-              <tr>
-               <th bgcolor="dark pink"> 3-5 </th>
-               <td> C PROGRAMMING </td>
-               <td> STATISTICS</td>
-               <td> C NETWORK</td> 
-               <td> C PROGRAMMING </td> 
-               <td> -- </td>
-              </tr>
-           </table>
-            <table border= "4" cellspacing="2px" cellpadding="12px"  align="center" >
-           <tr>
-           <th> S.No </th>
-           <th> SUBJECT CODE </th>
-           <th> SUBJECT NAME </th>
-           </tr>
-           <tr> 
-           <td> 1. </td>
-           <td> 19AI414 </td>
-           <td> FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT </td>
-           </tr>
-           <tr>
-           <td> 2. </td>
-           <td> 19AI303 </td>
-           <td> ENGINEERING MECHANICS AND PRODUCT DEVELOPMENT </td>
-           </tr>
-           <tr>
-           <td> 3. </td>
-           <td> 19AI304 </td> 
-           <td> FUNDAMENDALS OF C PROGRAMMING </td>
-           </tr>
-           <tr>
-           <td> 4. </td>
-           <td> 19PH214 </td>
-           <td> PHYSICS FOR QUANTUM COMPUTING </td>
-           </tr>
-           <tr>
-           <td> 5. </td>
-           <td> 19CS406 </td>
-           <td> COMPUTER NETWORK</td>
-           </tr>
-           <tr>
-           <td> 6. </td>
-           <td> 19MA211 </td>
-           <td> STATISTICS AND NUMERICAL METHODS</td>
-           </tr>
-           </table>
-              
-        </body>
+<img src="/static/images/logo.png" height="100" width="540">
+</center>
+<br>
+<table align="center" width="540" cellspacing="2" cellpadding="4" border="5" bgcolor="cyan">
+<caption><b>SLOT TIME TABLE - YUVABHARATHI>B(22002787)</b></caption>
+<tr align="center">
+<th bgcolor="red">Day/Time</th>
+<th bgcolor="red">Monday</th>
+<th bgcolor="red">Tuesday</th>
+<th bgcolor="red">Wednesday</th>
+<th bgcolor="red">Thursday</th>
+<th bgcolor="red">Friday</th>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">8-10</th>
+<td>Digital electronics</td>
+<td>Physics</td>
+<td>FREE SLOT</td>
+<td>WEB</td>
+<td>WEB</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">10-12</th>
+<td>FREE SLOT</td>
+<td>DATA SCIENCE</td>
+<td>OS</td>
+<td>DIGITAL ELECTRONICS</td>
+<td>DATA SCIENCE</td>
+</tr>
+<tr>
+<th bgcolor="yellow">12-1</th>
+<td colspan="5" align="center">L U N C H</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">1-3</th>
+<td>OS</td>
+<td>FREE SLOT</td>
+<td>WEB</td>
+<td>PHYSICS</td>
+<td>FREE SLOT</td>
+
+</tr>
+<tr align="center">
+<th bgcolor="yellow">3-5</th>
+<td>STATISTICS</td>
+<td>FREE SLOT</td>
+<td>FREE SLOT</td>
+<td>FREE SLOT</td>
+<td>STATISTICS</td>
+</tr>
+</table>
+<br>
+<table align="center" cellspacing="2" cellpadding="4" border="2">
+<tr align="center">
+<th>S. No.</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+</tr>
+<tr>
+<td align="center">1.</td>
+<td align="center">19AI414</td>
+<td>Fundamentals of Web Application Development (FWAD)</td>
+</tr>
+<tr>
+<td align="center">2.</td>
+<td align="center">19AI403</td>
+<td>INRODUCTION TO DATA SCIENCE</td>
+</tr>
+<tr>
+<td align="center">3.</td>
+<td align="center">19PH214</td>
+<td>PHYSICS FOR QUANTUM COMPUTING</td>
+</tr>
+<tr>
+<td align="center">4.</td>
+<td align="center">19MA211</td>
+<td>STATISTICS AND NUMERICAL METHODS</td>
+</tr>
+<tr>
+<td align="center">5.</td>
+<td align="center">19EE404</td>
+<td>DIGITAL ELECTRONICS (ENG)</td>
+</tr>
+<tr>
+<td align="center">6.</td>
+<td align="center">19CS405</td>
+<td>OPERATING SYSTEM (SS)</td>
+</tr>
+</table>
+</body>
 </html>
 ```
+
 ## OUTPUT
+![image](https://github.com/yuvabharathib/slot/assets/113497404/c5e2cd54-dd65-44e7-ba02-d0e9590a4a73)
 
 
 
 
 ## HTML VALIDATOR
+![image](https://github.com/yuvabharathib/slot/assets/113497404/2760548f-6d49-462c-af8e-0c7b6381b6d8)
+
 
 
 
