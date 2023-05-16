@@ -125,7 +125,8 @@ Execute the program using runserver command.
 ```
 
 ## OUTPUT
-![image](https://github.com/yuvabharathib/slot/assets/113497404/c5e2cd54-dd65-44e7-ba02-d0e9590a4a73)
+![WhatsApp Image 2023-05-15 at 9 46 44 PM](https://github.com/yuvabharathib/slot/assets/113497404/4065d728-d7f0-4374-883f-c86d4330ddd1)
+
 
 
 
